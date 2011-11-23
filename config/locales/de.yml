@@ -1,0 +1,22 @@
+de:
+  active_admin:
+    view: "Anschauen"
+    edit: "Bearbeiten"
+    delete: "Löschen"
+    dashboard: "Dashboard"
+    filter: "Filter"
+    search_field:  Suche
+    clear_filters: "Zurücksetzen"
+    details:    "Details"
+    edit_model: "Eintrag bearbeiten"
+    delete_model: "Eitnrag löschen"
+    logout: "Abmelden"
+    has_many_new: "Neues Unterelement erzeugen"
+    has_many_delete: "Unterelement entfernen"
+    cancel: "Abbrechen"
+    new_model: "Neuer Eintrag"
+    pagination:
+      one_page: "Erste Seite"
+      one:      "Erste Seite"
+    download:   "Exportieren"
+    any:        "Alle"

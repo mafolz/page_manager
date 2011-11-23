@@ -1,0 +1,5 @@
+#require 'compass/util'
+#require 'compass/browser_support'
+#require 'compass/sass_extensions'
+#require 'compass/version'
+#require 'compass/errors'

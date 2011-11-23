@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Under Pressure</title>
+    <%= stylesheet_link_tag    "application" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <div class="container showgrid">
+      <div class="span-24 last"/>
+      <div id="header" class="span-24 last">
+        <h1>Under Pressure</h1>
+      </div>
+
+      <div id="nav">
+        <%= render :template => 'layouts/templates/navigation' %>
+      </div>
+      <div id="content">
+        <%= yield %>
+      </div>
+
+      <div id="footer" class="span-24 last">
+        <%= render :template => 'layouts/templates/footer' %>
+      </div>
+    </div>
+
+  </body>
+</html>
